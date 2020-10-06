@@ -5,21 +5,29 @@ namespace EmpWageProblemFinal
 {
     class Program
     {
+        //Constants
+        public const int empWagePerHour = 20;
+        public const int fullDayHours = 8;
+        public const int partTimeHours = 4;
 
+        //Variables
+        public int empHours = 0;
+        public int empWagePerDay = 0;
+        public int empWageTotal = 0;
 
 
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to the Employee Wage Computation Program\n");
-            Program empAtt = new Program();
-            empAtt.EmpAttendace();
+            Program Employee = new Program();
+            Employee.EmpWageCalculator();
 
 
             
 
         }
         //Employee Attendance Check
-        public void EmpAttendace()
+        public int EmpAttendace()
         {
             
             Random randomNum = new Random();
@@ -35,9 +43,27 @@ namespace EmpWageProblemFinal
                     break;
                 default:
                     Console.WriteLine("Employee is absent");
-                    break;
-
+                    break;               
             }
+            return attendance;
+        }
+
+        public void EmpWageCalculator()
+        {
+
+            int attendance = EmpAttendace();
+            if (attendance == 1)
+                empHours = fullDayHours;
+            else if (attendance == 2)
+                empHours = partTimeHours;
+            else
+                empHours = 0;
+
+            empWagePerDay = empHours * empWagePerHour;
+            empWageTotal = empWageTotal + empWagePerDay;
+
+            Console.WriteLine("Employee Wage for the day is : " +empWagePerDay);
+            Console.WriteLine("Employee's Total Wage is : " +empWageTotal);
         }
     }
 }
