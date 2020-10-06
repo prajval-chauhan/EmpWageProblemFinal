@@ -9,11 +9,12 @@ namespace EmpWageProblemFinal
         public const int empWagePerHour = 20;
         public const int fullDayHours = 8;
         public const int partTimeHours = 4;
-
+        public const int maxWorkingDays = 20;
         //Variables
         public int empHours = 0;
         public int empWagePerDay = 0;
         public int empWageTotal = 0;
+        public int empWorkingDays = 0;
 
 
         static void Main(string[] args)
@@ -50,20 +51,25 @@ namespace EmpWageProblemFinal
 
         public void EmpWageCalculator()
         {
+            
+            do
+            {
+                int attendance = EmpAttendace();
+                empWorkingDays = empWorkingDays + 1;
+                if (attendance == 1)
+                    empHours = fullDayHours;
+                else if (attendance == 2)
+                    empHours = partTimeHours;
+                else
+                    empHours = 0;
 
-            int attendance = EmpAttendace();
-            if (attendance == 1)
-                empHours = fullDayHours;
-            else if (attendance == 2)
-                empHours = partTimeHours;
-            else
-                empHours = 0;
+                empWagePerDay = empHours * empWagePerHour;
+                empWageTotal = empWageTotal + empWagePerDay;
 
-            empWagePerDay = empHours * empWagePerHour;
-            empWageTotal = empWageTotal + empWagePerDay;
+                Console.WriteLine("Employee Wage for the day is : " + empWagePerDay + "\n");
 
-            Console.WriteLine("Employee Wage for the day is : " +empWagePerDay);
-            Console.WriteLine("Employee's Total Wage is : " +empWageTotal);
+            } while (empWorkingDays <= 20);
+            Console.WriteLine("Employee's Total Wage is : " + empWageTotal);
         }
     }
 }
