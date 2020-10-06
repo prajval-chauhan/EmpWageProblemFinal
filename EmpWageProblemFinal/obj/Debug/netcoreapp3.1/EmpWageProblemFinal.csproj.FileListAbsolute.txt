@@ -1,0 +1,13 @@
+C:\Users\Prajval\source\repos\EmpWageProblemFinal\EmpWageProblemFinal\bin\Debug\netcoreapp3.1\EmpWageProblemFinal.exe
+C:\Users\Prajval\source\repos\EmpWageProblemFinal\EmpWageProblemFinal\bin\Debug\netcoreapp3.1\EmpWageProblemFinal.deps.json
+C:\Users\Prajval\source\repos\EmpWageProblemFinal\EmpWageProblemFinal\bin\Debug\netcoreapp3.1\EmpWageProblemFinal.runtimeconfig.json
+C:\Users\Prajval\source\repos\EmpWageProblemFinal\EmpWageProblemFinal\bin\Debug\netcoreapp3.1\EmpWageProblemFinal.runtimeconfig.dev.json
+C:\Users\Prajval\source\repos\EmpWageProblemFinal\EmpWageProblemFinal\bin\Debug\netcoreapp3.1\EmpWageProblemFinal.dll
+C:\Users\Prajval\source\repos\EmpWageProblemFinal\EmpWageProblemFinal\bin\Debug\netcoreapp3.1\EmpWageProblemFinal.pdb
+C:\Users\Prajval\source\repos\EmpWageProblemFinal\EmpWageProblemFinal\obj\Debug\netcoreapp3.1\EmpWageProblemFinal.csprojAssemblyReference.cache
+C:\Users\Prajval\source\repos\EmpWageProblemFinal\EmpWageProblemFinal\obj\Debug\netcoreapp3.1\EmpWageProblemFinal.AssemblyInfoInputs.cache
+C:\Users\Prajval\source\repos\EmpWageProblemFinal\EmpWageProblemFinal\obj\Debug\netcoreapp3.1\EmpWageProblemFinal.AssemblyInfo.cs
+C:\Users\Prajval\source\repos\EmpWageProblemFinal\EmpWageProblemFinal\obj\Debug\netcoreapp3.1\EmpWageProblemFinal.csproj.CoreCompileInputs.cache
+C:\Users\Prajval\source\repos\EmpWageProblemFinal\EmpWageProblemFinal\obj\Debug\netcoreapp3.1\EmpWageProblemFinal.dll
+C:\Users\Prajval\source\repos\EmpWageProblemFinal\EmpWageProblemFinal\obj\Debug\netcoreapp3.1\EmpWageProblemFinal.pdb
+C:\Users\Prajval\source\repos\EmpWageProblemFinal\EmpWageProblemFinal\obj\Debug\netcoreapp3.1\EmpWageProblemFinal.genruntimeconfig.cache
